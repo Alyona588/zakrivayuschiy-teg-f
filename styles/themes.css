@@ -4,3 +4,59 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+  --bg-color: #fff;
+  --accent-color: #000;
+  --main-font-weight: normal;
+  --main-font-bold-weight: 700;
+  --first-gradient-color: #d3d3d3;
+  --second-gradient-color: #e7e7e7;
+  --third-gradient-color: #1a1a1a;
+  --text-shadow: rgba(255, 255, 255, 0.5);
+  --button-color-text: #fff;
+  --contour-color: #000;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff;
+    --accent-color: #000;
+    --main-font-weight: normal;
+    --main-font-bold-weight: 700;
+    --first-gradient-color: #d3d3d3;
+    --second-gradient-color: #e7e7e7;
+    --third-gradient-color: #1a1a1a;
+    --text-shadow: rgba(255, 255, 255, 0.5);
+    --button-color-text: #fff;
+    --contour-color: #000;
+  }
+}
+
+:root.theme-dark {
+  --bg-color: #000;
+  --accent-color: #00cc14;
+  --main-font-weight: 465;
+  --main-font-bold-weight: 785;
+  --first-gradient-color: #000;
+  --second-gradient-color: #007f0c;
+  --third-gradient-color: #004306;
+  --text-shadow: rgba(0, 0, 0, 0.5);
+  --button-color-text: #00cc14;
+  --contour-color: #00cc14;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #000;
+    --accent-color: #00cc14;
+    --main-font-weight: 465;
+    --main-font-bold-weight: 785;
+    --first-gradient-color: #000;
+    --second-gradient-color: #007f0c;
+    --third-gradient-color: #004306;
+    --text-shadow: rgba(0, 0, 0, 0.5);
+    --button-color-text: #00cc14;
+    --contour-color: #00cc14;
+  }
+}

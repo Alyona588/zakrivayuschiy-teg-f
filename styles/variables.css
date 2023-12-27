@@ -1,1 +1,30 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: "Inter-Variable", sans-serif;
+  --main-font-weight: normal;
+  --main-font-bold-weight: 700;
+  --accent-font: "Press Start 2P", sans-serif;
+  --bg-color: #fff;
+  --accent-color: #000;
+  --first-gradient-color: #d3d3d3;
+  --second-gradient-color: #e7e7e7;
+  --third-gradient-color: #1a1a1a;
+  --header-height: 323px;
+  --inline-size: 696px;
+  --top-content-padding: 3.5px;
+  --bottom-content-padding: 5.5px;
+  --card-gap: 50px;
+  --text-shadow: rgba(255, 255, 255, 0.5);
+  --top-label-position: 23px;
+  --right-label-position: 13px;
+  --button-color-text: #fff;
+  --contour-color: #000;
+  --main-heart-color: #ff0000;
+  --floppy-size: 28px;
+  --dialog-width: 341px;
+  --dialog-height: 195px;
+  --dialog-padding-top: 32px;
+  --dialog-padding-left: 42px;
+  --submit-width: 257px;
+  --dialog-text-width: 198px;
+}
