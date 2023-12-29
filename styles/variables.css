@@ -9,22 +9,52 @@
   --first-gradient-color: #d3d3d3;
   --second-gradient-color: #e7e7e7;
   --third-gradient-color: #1a1a1a;
+  --text-shadow: rgba(255, 255, 255, 0.5);
+  --button-color-text: #fff;
+  --contour-color: #000;
+  --main-heart-color: #ff0000;
   --header-height: 323px;
   --inline-size: 696px;
   --top-content-padding: 3.5px;
   --bottom-content-padding: 5.5px;
   --card-gap: 50px;
-  --text-shadow: rgba(255, 255, 255, 0.5);
   --top-label-position: 23px;
   --right-label-position: 13px;
-  --button-color-text: #fff;
-  --contour-color: #000;
-  --main-heart-color: #ff0000;
   --floppy-size: 28px;
   --dialog-width: 341px;
-  --dialog-height: 195px;
   --dialog-padding-top: 32px;
   --dialog-padding-left: 42px;
   --submit-width: 257px;
   --dialog-text-width: 198px;
+  --right-paragraph-padding: 28.95px;
+  --top-paragraph-padding: 23px;
+  --content_footer-gap: 7px;
+  --save-button-height: 80px;
+  --save-button-width: 306px;
+}
+
+@media (min-width: 376px) {
+  :root {
+    --header-height: 364px;
+    --top-content-padding: 3px;
+    --bottom-content-padding: 3px;
+    --card-gap: 54px;
+    --top-label-position: 27px;
+    --right-label-position: 22px;
+    --floppy-size: 21px;
+    --dialog-width: 357px;
+    --dialog-padding-top: 32px;
+    --dialog-padding-left: 32px;
+    --submit-width: 293px;
+    --dialog-text-width: 234px;
+    --right-paragraph-padding: 28.95px;
+    --top-paragraph-padding: 25px;
+    --content_footer-gap: 3px;
+    --save-button-height: 51px;
+    --save-button-width: 335px;
+  }
+
+  .card__save-button {
+    flex-wrap: wrap;
+  }
 }
